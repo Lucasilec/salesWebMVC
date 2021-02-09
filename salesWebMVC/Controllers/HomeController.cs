@@ -13,12 +13,12 @@ namespace salesWebMVC.Controllers
         public IActionResult Index()
         {
             return View();
-        }
+        }       
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
+            ViewData["Message"] = "Brasil";
+            ViewData["Lucas"] = "lucasileck203@outlook.com";
             return View();
         }
 
@@ -33,7 +33,7 @@ namespace salesWebMVC.Controllers
         {
             return View();
         }
-
+       
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
