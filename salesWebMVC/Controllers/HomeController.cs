@@ -10,6 +10,13 @@ namespace salesWebMVC.Controllers
 {
     public class HomeController : Controller
     {
+        public IActionResult Departaments()
+        {
+            List<Departaments> list = new List<Departaments>();
+            list.Add(new Departaments { Id = 1, Name = "Eletronics" });
+            list.Add(new Departaments { Id = 2, Name = "fashion" });
+            return View(list);
+        }
         public IActionResult Index()
         {
             return View();
@@ -37,7 +44,7 @@ namespace salesWebMVC.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(new salesWebMVC.Models.ViewModels.ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

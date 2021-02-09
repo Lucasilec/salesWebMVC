@@ -33,4 +33,5 @@ C:\Users\entra21\Desktop\SalesWebMVC\salesWebMVC\salesWebMVC\obj\Debug\netcoreap
 C:\Users\entra21\Desktop\SalesWebMVC\salesWebMVC\salesWebMVC\obj\Debug\netcoreapp2.1\salesWebMVC.pdb
 C:\Users\entra21\Desktop\SalesWebMVC\salesWebMVC\salesWebMVC\obj\Debug\netcoreapp2.1\salesWebMVC.genruntimeconfig.cache
 C:\Users\entra21\Desktop\SalesWebMVC\salesWebMVC\salesWebMVC\obj\Debug\netcoreapp2.1\salesWebMVC.csproj.CopyComplete
-C:\Users\entra21\Desktop\SalesWebMVC\salesWebMVC\salesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\SiteFoderoso.cshtml.g.cs
+C:\Users\entra21\Desktop\SalesWebMVC\salesWebMVC\salesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departaments\Index.cshtml.g.cs
+C:\Users\entra21\Desktop\SalesWebMVC\salesWebMVC\salesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Departaments.cshtml.g.cs
